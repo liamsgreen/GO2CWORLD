@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather in Copenhagen</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+	<header class="header">
+		<nav class="navbar">
+			<li class="nav-logo"><a href="index.html">GO2CWORLD</a></li>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="country.html" class="nav-link">Countries</a></li>
+				<li class="nav-item"><a href="city.html" class="nav-link">Cities</a></li>
+				<li class="nav-item"><a href="deals.html" class="nav-link">Deals</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Main content split into 3 sections: Discover, City Content, About Us 
+		Using Flex on the first 2 sections.
+		-->
+		<div class="discover">
+			<div id="content-text">
+				<h1>What's the weather in Copenhagen:</h1>
+				<p>Denmark is well known for it's temperate climate. Summers are dry and comfortably warm, peaking around 24 degrees(C); Winters are cold and damp, 
+				not often dropping below 5 degrees(C). 
+				</p>
+				<h2><a href="https://www.bbc.com/weather/2618425" >Take a closer look!</a></h2>
+			</div>
+			<div id="content-image">
+				<img id="city-image" src="images/clouds.jpg" alt="cloudy_weather">
+				<p><span>Some lovely clouds</span></p>
+			</div>
+		</div>
+		
+		<div class="content-checkout">
+		<h1>Weather over the next few days</h1>
+			<div class="content-city">
+				<div id="content-activity">
+						<img id="city-image" src="images/rainy.png" alt="rainy">
+						<h2>Rainy</h2>
+						<p><span>21&#8451; high</span></p>
+				</div>
+				<div id="content-attraction">
+						<img id="city-image" src="images/partly_cloudy.png" alt="partly_cloudy">
+						<h2>Partly Cloudy</h2>
+						<p><span>22&#8451; high</span></p>
+				</div>
+				<div id="content-accomodation">
+						<img id="city-image" src="images/sunny.png" alt="sunny">
+						<h2>Sunny</h2>
+						<p><span>21&#8451; high</span></p>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<aside>
+			<div id="content-about">
+				<h1>Weather facts:</h1>
+				<p><span>Copenhagen</span>has a very interesting climate as it is high in altitude but also affected by coastal ocean currents. 
+				So it is often not as cold as you would expect. In a given year there is normally 20-25 days with snow</p>
+			</div>
+			
+			<div id="about-image">
+				<img id="city-image" src="images/copenhagen_map.jpg" alt="copenhagen_map">
+				<p><span>Map of Copenhagen</span></p>
+			</div>
+	</aside>
+
+    <footer>
+        <ul>
+            <li><a href="contact.html">Contact-Us</a></li>
+            <li><a href="country.html">Travel</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="terms.html">©GO2CWORLD T&amp;C's </a></li>
+        </ul>
+    </footer>
+	
+</body>
+
+<script src="scripts/main.js"></script>
+</html>

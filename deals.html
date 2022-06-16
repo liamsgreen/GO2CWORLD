@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Deal of the week - GO2CWORLD</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+	<header class="header">
+		<nav class="navbar">
+			<li class="nav-logo"><a href="index.html">GO2CWORLD</a></li>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="country.html" class="nav-link">Countries</a></li>
+				<li class="nav-item"><a href="city.html" class="nav-link">Cities</a></li>
+				<li class="nav-item"><a href="weather.html" class="nav-link">Weather</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Main content split into 3 sections: Discover, City Content, About Us 
+		Using Flex on the first 2 sections.
+		-->
+		<div class="discover">
+			<div id="content-text">
+				<h1>Deal of the week!</h1>
+				<p>This week's deal is on Copenhagen Canal Tours - Take a classic canal bout tour around Copenhagens's harbour while the trained guide tells you about all the 
+				   interesting sights and attractions around you! If you're looking for a cruisey way to get around a city while learning a thing or two, then this is the deal for you!
+				   Starting at only $22 NZD per person there's no reason not!</p>
+				<h2><a href="country.html" >BOOK IT NOW!</a></h2>
+			</div>
+			<div id="video-image">
+				<video width="320" height="240" controls>
+				  <source src="videos/river.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<h3 class="caption">Copenhagen, Denmark</h3>
+			</div>
+		</div>
+		
+		<div class="content-checkout">
+		<h1>Other bargains:</h1>
+			<div class="content-city">
+				<div id="content-activity">
+						<img id="city-image" src="images/bakken.jpg" alt="bakken">
+						<h2><a href="https://shop.bakken.dk/" >Bakken</a></h2>
+						<p><span>The world's oldest amusement park</span></p>
+				</div>
+				<div id="content-attraction">
+						<img id="city-image" src="images/zoo.jpg" alt="jaguar_photo">
+						<h2><a href="https://www.zoo.dk/s/billet?language=da" >Copenhagen Zoo</a></h2>
+						<p><span>One of the oldest zoos in Europe!</span></p>
+				</div>
+				<div id="content-accomodation">
+						<img id="city-image" src="images/hotel_inside.jpg" alt="travel_accomodation">
+						<h2><a href="https://absalon-hotel.dk/" >Absalon Hotel</a></h2>
+						<p><span>Top rated Copenhagen hotel</span></p>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<aside>
+			<div id="content-about">
+				<form action="action_page.php">
+				  <div class="container">
+					<h2>Subscribe for more great deals!</h2>
+					<p></p>
+				  </div>
+
+				  <div class="container" style="background-color:white">
+					<input type="text" placeholder="Name" name="name" required>
+					<input type="text" placeholder="Email address" name="mail" required>
+					<label>
+					  <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+					</label>
+						<input type="submit" value="Subscribe">
+				  </div>
+				</form>
+			</div>
+			
+			<div id="about-image">
+				<img id="city-image" src="images/price.jpg" alt="price">
+			</div>
+	</aside>
+
+    <footer>
+        <ul>
+            <li><a href="contact.html">Contact-Us</a></li>
+            <li><a href="country.html">Travel</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="terms.html">©GO2CWORLD T&amp;C's </a></li>
+        </ul>
+    </footer>
+	
+</body>
+
+<script src="scripts/main.js"></script>
+</html>
